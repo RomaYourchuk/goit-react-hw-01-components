@@ -1,4 +1,4 @@
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 
 export default function Profile(props) {
@@ -33,6 +33,17 @@ export default function Profile(props) {
     )
 };
 
-// Profile.PropTypes = {
-//     username: PropTypes.string
-// }
+Profile.propTypes = {
+    username: PropTypes.string,
+    tag: PropTypes.string,
+    location: PropTypes.string,
+    avatar: PropTypes.string,
+    stats: PropTypes.objectOf(
+        PropTypes.shape(
+        {
+            followers: PropTypes.object.isRequired,
+            views: PropTypes.number,
+            likes: PropTypes.number,    
+        })
+    )
+}
