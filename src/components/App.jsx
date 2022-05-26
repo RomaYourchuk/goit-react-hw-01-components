@@ -1,15 +1,14 @@
-import Profile from "./user";
+import Profile from "./user/user";
 import datauser from '../components/user.json';
 
-import Statistics from './statistics.js';
+import Statistics from './statistics/statistics.js';
 import DataStatistics from '../components/data.json';
 
 import friends from "../components/friends.json";
-import FriendList from '../components/friends.js';
+import FriendList from './friends/friends.js';
 
-import TransactionHistory from '../components/transactions.js';
+import TransactionHistory from './transactions/transactions.js';
 import transactions from '../components/transactions.json';
-
 
 const data = datauser;
 const dataStatistics = DataStatistics;
@@ -18,7 +17,6 @@ export const App = () => {
     <div
       style={{
         height: '100vh',
-        // display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
         fontSize: 40,
@@ -33,16 +31,11 @@ export const App = () => {
         stats={data.stats}
       />
       <Statistics title="Upload stats" stats={dataStatistics} />
-      {/* <Statistics stats={OnDataStatistics} /> */}
       <FriendList friends={friends} />
       <TransactionHistory items={transactions} />
       </div>
-     
-      {/* React homework template */}
     </div>
   );
 };
 
 
-/* <Statistics title="Upload stats" stats={OnDataStatistics.stats} />
-<Statistics stats={OnDataStatistics.stats} /> */

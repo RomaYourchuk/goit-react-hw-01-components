@@ -1,0 +1,26 @@
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transaction_history {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+thead {
+  background-color: gray;
+}
+
+tbody {
+  background-color: #cbced4;
+}
+
+th {
+  text-align: center;
+}
+
+tr {
+  text-align: center;
+}

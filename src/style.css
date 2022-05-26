@@ -1,0 +1,4 @@
+@import './components/friends/friends.module.css';
+@import './components/user/user.module.css';
+@import './components/statistics/statistics.module.css';
+@import './components/transactions/transactions.module.css';

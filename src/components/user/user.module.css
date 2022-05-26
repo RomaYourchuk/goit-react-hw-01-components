@@ -1,0 +1,43 @@
+.description {
+  display: block;
+  background-color: #d5d9e0;
+  padding: 30px;
+}
+
+.avatar {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.name,
+.tag,
+.location,
+.stats {
+  text-align: center;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.location {
+  text-decoration: underline;
+}
+
+.tag {
+  font-style: italic;
+  color: green;
+}
+
+.stats {
+  list-style: none;
+  padding: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #e1e6ed;
+}
+
+.label {
+  font-weight: bold;
+}

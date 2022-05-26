@@ -1,0 +1,19 @@
+.upload {
+  padding: 40px 40px 10px 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.upload_list {
+  padding: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #e6e8eb;
+}
+
+.upload_item {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}

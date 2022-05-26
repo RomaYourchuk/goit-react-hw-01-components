@@ -1,4 +1,8 @@
-@import-normalize; /* bring in normalize.css styles */
+/* @import-normalize; */
+/* bring in normalize.css styles */
+
+@import './style.css';
+/* @import './components/friends/friends.module.css'; */
 
 body {
   margin: 0;

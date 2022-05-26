@@ -1,0 +1,14 @@
+.friend_list {
+  padding: 50px 30px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+}
+
+.status::before {
+  content: '';
+  display: inline-block;
+  border: 10px solid;
+  border-radius: 50%;
+}
